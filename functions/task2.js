@@ -1,5 +1,5 @@
-const checkPersonAge = (age) => {
+const isPersoneAdult = (age) => {
     return age >= 18
 }
 
-console.log("Check the first person is adult: " + checkPersonAge(15), " \nCheck the second person is adult: " +  checkPersonAge(25))
+console.log("Check the first person is adult: " + isPersoneAdult(15), " \nCheck the second person is adult: " +  isPersoneAdult(25))
