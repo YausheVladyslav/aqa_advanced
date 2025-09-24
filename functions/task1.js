@@ -1,18 +1,18 @@
 
-function declarationMultiplyVariables(width, height){
+function multiplyVariables(width, height){
 return width * height
 }
 
-console.log("Declaration function: " + declarationMultiplyVariables(5, 10))
+console.log("Declaration function: " + multiplyVariables(5, 10))
 
-const expressionMultiplyVariables = function(width, height){
+const getMultipliedVariables = function(width, height){
 return width * height
 }
 
-console.log("Expression function: " + expressionMultiplyVariables(2, 10))
+console.log("Expression function: " + getMultipliedVariables(2, 10))
 
-const arrowMultiplyVariables = (width, height) => {
+const calculateVariables = (width, height) => {
 return width * height
 }
 
-console.log("Arrow function: " + arrowMultiplyVariables(3, 5))
+console.log("Arrow function: " + multiplyVariables(3, 5))
