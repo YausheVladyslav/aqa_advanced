@@ -1,10 +1,10 @@
-function getCountByDown(number) {
+function countByDown(number) {
     if (number <= 0) {
         return
     }
     console.log(number)
 
-    getCountByDown(number - 1)
+    countByDown(number - 1)
 }
 
-getCountByDown(5)
+countByDown(5)

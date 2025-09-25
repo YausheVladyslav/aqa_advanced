@@ -1,8 +1,8 @@
-function handleNum(number, handlEvenNumber, HandleOddNumber) {
+function handleNum(number, handlEvenNumber, handleOddNumber) {
     if (number % 2 === 0) {
         handlEvenNumber()
     } else {
-        HandleOddNumber()
+        handleOddNumber()
     }
 }
 
