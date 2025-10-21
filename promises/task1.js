@@ -1,4 +1,4 @@
-function showText(anyText, timer) {
+function printWithDelay(anyText, timer) {
     setTimeout(() => {
         console.log(anyText)
     }, timer);
