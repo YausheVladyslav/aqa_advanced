@@ -1,6 +1,7 @@
 async function getTodoById(id) {
     try {
-        return await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`).then((result) => result.json())
+        const response =  await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
+        return await response.json()
     } catch (error) {
         console.log(error.message)
     }
@@ -9,7 +10,8 @@ async function getTodoById(id) {
 
 async function getUserById(id) {
     try {
-        return await fetch(`https://jsonplaceholder.typicode.com/users/${id}`).then((result) => result.json())
+        const response =  await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
+        return await response.json()
     } catch (error) {
         console.log(error.message)
     }
